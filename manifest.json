@@ -1,0 +1,27 @@
+{
+   "name": "Old Reddit Redirect",
+   "description": "Ensure Reddit always loads the old design, until you turn it off.",
+   "version": "1.2.0",
+   "manifest_version": 2,
+   "background": {
+      "persistent": true,
+      "scripts": [
+         "background.js"
+      ]
+   },
+   "browser_action": {},
+   "icons": {
+      "48": "img/true48.png",
+      "128": "img/true128.png"
+   },
+   "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "*://reddit.com/*",
+      "*://www.reddit.com/*",
+      "*://np.reddit.com/*",
+      "*://new.reddit.com/*",
+      "*://amp.reddit.com/*",
+      "*://old.reddit.com/*"
+   ]
+}
