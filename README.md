@@ -1,13 +1,11 @@
-# Old Reddit Redirect
+# Reddit Redirect
 
-[Chrome extension](https://chrome.google.com/webstore/detail/old-reddit-redirect/dneaehbmnbhcippjikoajpoabadpodje)
+This extension offers the same functionality as the original Old Reddit Redirect, but now you can also turn the redirect off.
 
-[Firefox extension](https://addons.mozilla.org/firefox/addon/old-reddit-redirect)
+## How to use
+It's enabled by default, but you can disable it by clicking the extension icon. You can then freely browse Reddit in the redesign. Clicking the icon again enables it and refreshing the page redirects you to old Reddit.
 
-Dislike Reddit's redesign? Old Reddit Redirect will ensure that you always load the old (old.reddit.com) design instead.
 
-Will force all reddit.com usage to old.reddit.com. Will work when navigating to the site, opening links, using old bookmarks. Works regardless of whether you are logged in or not, and in incognito mode.
+# Credits
 
-## License
-
-Code copyright Tom Watson. Code released under [the MIT license](LICENSE.txt).
+Tom Watson [Old Reddit Redirect](https://github.com/tom-james-watson/old-reddit-redirect) / [Chrome Webstore](https://chrome.google.com/webstore/detail/old-reddit-redirect/dneaehbmnbhcippjikoajpoabadpodje)
