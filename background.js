@@ -11,6 +11,10 @@ const excludedPaths = [
       redirect = !redirect
       console.log(redirect)
       chrome.browserAction.setIcon({path:"img/" + redirect.toString() + "48.png"})
+      chrome.tabs.getSelected(null, function(tab) {
+         var code = 'window.location.reload();';
+         chrome.tabs.executeScript(tab.id, {code: code});
+       });
    });
    
    chrome.webRequest.onBeforeRequest.addListener(
